@@ -16,6 +16,7 @@
 		4C8F142E21E71F8B00FB2E19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F142D21E71F8B00FB2E19 /* main.m */; };
 		4C8F143821E71F8B00FB2E19 /* CountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F143721E71F8B00FB2E19 /* CountDownButtonTests.m */; };
 		4C8F144321E71F8C00FB2E19 /* CountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F144221E71F8C00FB2E19 /* CountDownButtonUITests.m */; };
+		4C8F145221E7200400FB2E19 /* CountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F145121E7200400FB2E19 /* CountDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4C8F143E21E71F8C00FB2E19 /* CountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8F144221E71F8C00FB2E19 /* CountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownButtonUITests.m; sourceTree = "<group>"; };
 		4C8F144421E71F8C00FB2E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8F145021E7200400FB2E19 /* CountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownButton.h; sourceTree = "<group>"; };
+		4C8F145121E7200400FB2E19 /* CountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				4C8F141C21E71F8A00FB2E19 /* AppDelegate.m */,
 				4C8F141E21E71F8A00FB2E19 /* ViewController.h */,
 				4C8F141F21E71F8A00FB2E19 /* ViewController.m */,
+				4C8F145021E7200400FB2E19 /* CountDownButton.h */,
+				4C8F145121E7200400FB2E19 /* CountDownButton.m */,
 				4C8F142121E71F8A00FB2E19 /* Main.storyboard */,
 				4C8F142721E71F8B00FB2E19 /* Assets.xcassets */,
 				4C8F142921E71F8B00FB2E19 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				4C8F142621E71F8A00FB2E19 /* CountDownButton.xcdatamodeld in Sources */,
 				4C8F142021E71F8A00FB2E19 /* ViewController.m in Sources */,
+				4C8F145221E7200400FB2E19 /* CountDownButton.m in Sources */,
 				4C8F142E21E71F8B00FB2E19 /* main.m in Sources */,
 				4C8F141D21E71F8A00FB2E19 /* AppDelegate.m in Sources */,
 			);
@@ -440,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E6XR73T6W4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CountDownButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E6XR73T6W4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CountDownButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
